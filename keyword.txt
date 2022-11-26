@@ -1,0 +1,17 @@
+###########################################
+# Syntax Coloring Map For Callmebot-ESP8266
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+whatsappMessage	KEYWORD2
+facebookMessage	KEYWORD2
+telegramMessage KEYWORD2
+telegramGroup   KEYWORD2
+telegramCall    KEYWORD2
