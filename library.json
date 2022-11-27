@@ -1,11 +1,11 @@
 {
     "name": "Callmebot ESP32",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": "communication, REST, esp32, arduino",
     "description": "Whatapp message, Telegram call, Telegram message, Telegram group message, Facebook message.",
     "repository": {
       "type": "git",
-      "url": "https://github.com/hafidhh/Callmebot_ESP8266"
+      "url": "https://github.com/hafidhh/Callmebot-ESP32"
     },
     "authors": [{
       "name": "hafidhh",
