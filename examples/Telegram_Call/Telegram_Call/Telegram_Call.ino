@@ -1,7 +1,7 @@
 /**
- * @file Telegram_Message_Multi_User.ino
+ * @file Telegram_Call.ino
  * @author Hafidh Hidayat (hafidhhidayat@hotmail.com)
- * @brief Example Send Telegram Messages to Multi User
+ * @brief Example Telegram Call
  * 
  * @copyright Copyright (c) 2022
  * 
@@ -20,10 +20,8 @@ const char* password = "your_password";
 // username : @username or phonenumber (Indonesia +62, Example: "+62897461238")
 // You need to authorize CallMeBot to contact you using this link : https://api2.callmebot.com/txt/login.php. 
 // Or alternatively, you can start the bot sending /start to @CallMeBot_txtbot.
-String username1 = "@your_username1/phonenumber1";
-String username2 = "@your_username2/phonenumber2";
-String apiKey = "your_apiKey";
-String messsage = "your_text_message";
+String username = "@your_username/phonenumber";
+String text = "your_text_message";
 
 void setup() {
 	Serial.begin(115200);
@@ -38,9 +36,8 @@ void setup() {
 	Serial.print("Connected to WiFi network with IP Address: ");
 	Serial.println(WiFi.localIP());
 
-	//Telegram Message
-	String username = username1+"|"+username2;
-	Callmebot.telegramMessage(username, messsage);
+	// Telegram Call
+	Callmebot.telegramCall(username, text);
 	Serial.println(Callmebot.debug());
 }
 
