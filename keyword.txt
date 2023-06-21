@@ -15,3 +15,4 @@ facebookMessage	KEYWORD2
 telegramMessage KEYWORD2
 telegramGroup   KEYWORD2
 telegramCall    KEYWORD2
+telegramCallMp3 KEYWORD2
