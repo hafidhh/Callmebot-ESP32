@@ -1,7 +1,7 @@
 # Callmebot ESP32 Library
 [![arduino-library-badge](https://www.ardu-badge.com/badge/Callmebot%20ESP32.svg?)](https://www.ardu-badge.com/Callmebot%20ESP32)
-[![PlatformIO Registry](https://badges.registry.platformio.org/packages/hafidh/library/Callmebot%20ESP32.svg?)](https://registry.platformio.org/libraries/hafidh/Callmebot%20ESP32)
-[![GitHub release](https://img.shields.io/github/release/hafidhh/Callmebot-ESP32.svg?)](https://github.com/hafidhh/Callmebot-ESP32/releases)
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/hafidh/library/Callmebot%20ESP32.svg)](https://registry.platformio.org/libraries/hafidh/Callmebot%20ESP32)
+[![GitHub release](https://img.shields.io/github/release/hafidhh/Callmebot-ESP32.svg)](https://github.com/hafidhh/Callmebot-ESP32/releases)
 [![License](https://img.shields.io/github/license/hafidhh/Callmebot-ESP32.svg?)](https://github.com/hafidhh/Callmebot-ESP32/blob/master/LICENSE.md)
    
 ## 🚀 Description
